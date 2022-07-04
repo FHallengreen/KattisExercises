@@ -26,6 +26,7 @@ public class Main {
             if (wordLength.contains(i)) {
                 hi++;
                 arraylist.add(i + ":" + hi);
+                arraylist.remove(wordLength.indexOf(i));
             } else arraylist.add(i + ":" + hi);
             System.out.println(arraylist);
             hi = 0;
