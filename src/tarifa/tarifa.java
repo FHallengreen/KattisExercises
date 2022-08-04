@@ -11,6 +11,10 @@ public class tarifa {
         int n = sc.nextInt();
         int toSpare = 0;
         int sum = 0;
+
+
+
+
         for (int i = 0; i < n; i++) {
             int p = sc.nextInt();
             if (p < x){
